@@ -1,0 +1,288 @@
+Let me go back. Okay. Alright. So, we discussed about how the speed how these speed sounds are articulated. How are they actually produced for different wave vibrations and movements of the human body parts. How do we analyse the acoustic properties of this sound? So what happens is, by these different movements, there's some sound waves that are generated.
+
+What do you have to do? You have to acquire these sound waves. You have to capture these sound waves. Digitise. Digitise them and then perform whatever sort of processing you want to perform.
+
+Then there can be a lot of different kinds of processing that need to be performed. You have to perform this processing, and we'll see some of the variations. And throughout the course, it will be how to process these audio sounds. And then what happens?
+
+After all of this processing, in case you want to hear back the sound, let's say I wanted to make the sound more melodious, increase the volume, add some kind of audio processing to it, and hear it back. What do I need to do then? You had the digitised signal. You convert it back to analogue. You convert it back to sound waves, play it.
+
+That is how we hear it. So, and that how do you hear it? That depends on your ear shape, processing of the ear, and all of that.
+
+And how everybody perceives the sound is also relative. For you, something, a DJ music playing in a club might be awesome. I might be saying, given my age, I might be saying, सर दर्द हो गया, let's go back home. So it's all very relative, depending on because our our body shapes are different.
+
+How we perceive things, our experiences are different. Behaviours are different. So depending on all of that, sound is also perceptive.
+
+So how we produce sound, how we hear sound, that is perceptive. The same was when you speak could be different. The way I speak could be different. Not only accent, but just the audio characteristics itself.
+
+So, we'll brief very briefly discuss auditory phonetics, and then we'll move on to acoustics. So auditory phonetics is a branch of phonetics that's that studies how speech sounds are, which you can process by the human auditory system. And it focuses on the linguistics and the physical properties of these linguistic signals that we perceive.
+
+And then how do we perceive different phones and different kinds of words and all of that? So, how the pitch is varying, how the loudness is varying, how the frequency is varying, all of that is something that goes in this auditory phonetics.
+
+So design of, those earplugs design of earplugs or design of devices for hearing aids, or your headphones, all of that. That comes under auditory phonetics combined with your acoustics and the first part of it. So in order to when you go from capturing to processing and playing it back, it's a entire field that you have to look at. Computer scientists, signal processing people, machine learning experts, we primarily focus on the center part, which is my acoustics.
+
+ So how do we process that? Once the data is captured, how do we process that? So in terms of processing, there are some very fundamental properties of it.
+
+ What are the fundamental properties? Frequency. How do we measure that? What is the amplitude?
+
+What is the length or the duration of that? And then I'll go into the details of this in a short while. What is frequency? Okay.
+
+Let me first let me go further. Okay. Great. Ma'am, you think slides are not changing for us? Slides are not changing?
+
+Yeah. You are in the requirement slide? Okay. Wait, Sony. एक second.
+
+I'm also not get the class code. Can you ping in the good chat so I can add my . Yes, ma'am. 
+
+I think I had shared the last lecture. Okay. And it is moving now. Yes, ma'am. Thank you.
+
+Thank you for raising that. Okay. So when we talk about frequency, we discuss what we talk about is, how do you capture audio? Let me go up, sorry, a few slides further. Okay.
+
+How do we capture these sound waves? Digitisation. You capture them, and then you how do you start processing them? Sample and quantisation.
+
+These are the two processes. How do we perform sampling and quantisation? Yeah. I'm at a very basic level right now.
+
+I'm at a very basic level. I'm not doing that. What is Ma'am? Actually, continuous signal is coming, and at a fixed rate, we are actually capturing. So when a signal is coming at fixed intervals of time, you capture the signal. You capture the signal.
+
+ This is analog signal. You are converting it into a discrete signal right now. So at every interval of time, you are capturing what is the audio. What is the sound level?
+
+ What when I say sound level, what do we mean? What is the amplitude of that sum? So we that is called as sampling.
+
+ So it converts a real time It converts a time varying signal into a discrete time signal, which is consisting of real numbers.  And what is your quantisation? In the when we do quantisation, it replaces that real number that we had with some discrete values.
+
+ Now both of these are subjective. Hi, ma'am. Quantisation. In terms of sampling, how do you decide at what interval would you like to sample a signal?
+
+ At each interval, that each interval defines what is your sampling rate. Ma'am, one thing I want to know, like, why we need sampling, basically, for a continuous signal? Can somebody tell me why do we need sampling at a continuous interval? We can only work in a limited data.
+
+See, you can work with limited data, and what you are doing is you want to quantise it. Sorry. You want to digitise that signal. So either you can it's it's an analogue signal.
+
+So you have samples, some audio signal at every time instance. So you have to capture that time instance. Now if you want to capture the most, we did not want to work on continuous phase. We want to work on some time difference. So, time difference, you can choose.
+
+ Because sorry. Time difference, you can choose. How much of time difference do you want to keep. If you want to if you want to capture an audio, if you want to capture the or the value of the sound, at every microsecond, millisecond, nanosecond, whatever it is.
+
+You can do that. So sampling rate depends on that. Give me one second, guys.
+
+There's some trouble with that. Yeah. So sampling rate is the number of samples per second that you capture to create that waveform. And if you create if you keep too much gap let's say you are capturing, the value, one value, every millisecond.
+
+ If you're capturing one value every millisecond, what will happen? In a second? Every millisecond. You're capturing one audio value every millisecond.
+
+ Versus you're capturing you at every nanosecond. So, ma'am, like, in between if I take it, time frame of nanoseconds, so between one nano to two nano, we are missing some information.  Exactly.
+
+Now, between one nano to two nano, you are missing information. But when you come to comparative of one millisecond to the second millisecond, then the amount of information that you are missing is significantly high. Compare it to your visual experiences. 
+
+You have you have television, so you have screens. When you take a look at TV, TV का resolution क्या होता है can somebody tell me? It's a 4K resolution का TV आता है , high definition का आता है , high definition HD What happens in all of these? What happens in all of these?
+
+Take a look at the televisions that were there earlier or maybe just ten years back versus the televisions that you have now. Pixels. So what used to happen is the depth of the pixels. So what we are doing take a high resolution image.
+
+What we are doing to represent the pixel, we are using a lot more information. Versus if you are using very little information to represent a pixel. How much of detailed information can it capture? So if you go in a television showroom, Sonika showroom, शहर में कहीं है.
+
+ If you go to the showroom and just look at the TVs across. Ask him which is the highest definition television that you have, the highest resolution television you have versus the lowest resolution television that you have. Even if there is a drop of water falling, you can see.
+
+ You can see the micro movements of water particles and what is happening. Versus if you look at the television that was there earlier. एक तो वो CRP वाले television भी आते थे. Televisions that are smaller ones, not very high definition televisions, lower resolution.
+
+The clarity of the pixels there is not so high. Now take this example to audio. Something playing on your mobile phone, a normal mobile phone, versus the same thing that is playing in a theater, or you have a very fancy sound system where every drop of water falling down can be heard. 
+
+Every small variation in the audio sound. The kind of music that AR Rahman generates. If you hear that music on a very normal mobile phone versus you hear that music on a, BOSCH का, very sophisticated speakers and all, You'll see you'll hear the difference in each node, in each, variation that is there. So, ma'am, this difference is because of, sampling rate or, like, pixels in the system?
+
+See, pixels are there in the images. Yeah. Pixel So we sampling rate is different. Sampling rate is very high.
+
+ So you are capturing those variations at, in greater detail. But what you have to also understand is your, so this is an example of sampling rates. 
+
+So this is your analog wave that you see on the left hand side and the corresponding digital result of digitizing that. Now if you have the first figure that the first digital result that you see is you'll have breaks in the middle. So the audio that you will hear will not be as smooth. 
+
+Whereas, if you go to the very bottom figure, you'll have very detailed audio compared to the first one. You have a lot more nuances that are there. Now, in order to have a smooth variation, smooth audio signal, what you need is, you need to be able to, hear the sound. To you need to be able to have it comparative to what your ears can hear, what your ears perceive. 
+
+Take a look at this, signal, and the more the higher. Sorry. If you have highest, lower sampling rates, the error in the reconstruction will be higher. The smaller the sampling rate because you're capturing smaller values. 
+
+If you're capturing smaller values, then the error in reconstruction might will be higher. Because there are a lot of samples, there are a lot of signals that you are not able to capture. Yes. Why do you need sample? Why do you capture it?
+
+Okay. So the question is why do you capture it in equal intervals? Why the sampling rate is fixed? Why don't you vary it? Any thoughts on that, anyone?
+
+Because, like, demodulation process will be easy. And the demodulation process is also easy when the sampling rate is constant. The process of what is easy? Demodulation means reconstruction of signal again in the The process of demodulation. Reconstruction is easy when the sampling rate is fixed.
+
+You were saying something? I was seeing that if you don't keep the sound between fixed, we want to evaluate, able to evaluate it, looking at the same portion of the sound that is being evaluated. See. And if you don't keep the sample rate fixed, the kind of audio that you are getting will be very it's choppy or noisy. You're not getting in even information.
+
+So point is correct. What he's saying is if you're capturing a audio stream, which is where there is long periods of no audio.  In that, can you actually sample at a lower rate versus when you have more detailed audio sample at a at a higher rate. So there's you can do that, but the way to address it is you filter it out.
+
+You capture it, you filter it out. And when you are capturing it, that actually see, theoretically speaking, you can sample it at different rates also. But then when you're reconstructing it , doing any kind of processing, you need to be aware of what was the sampling rate during these parts of the signal. It is also possible see, when we utter any sentence or when you're singing the song or any kind of audio signal that is happening, the the rate of flow of audio is not the same throughout.
+
+ Not only the quiet periods, but even the, let's say when I'm speaking. Maybe in the beginning of the class, I'm going slow. But then towards the middle,I've increased my speed has increased.
+
+And then when I'm, towards the end of the class, I'm again slowing down. When you hear a song again, I'll go back to AR, Iman. It'll be like and then it'll pick up and then it'll slow down. 
+
+So you can capture all of those variations. It's possible. Theoretically not limiting. But then , the experience that you get, right, the perception that you get by hearing it at a at a constant rate, at constantly sampled rate. That versus if you will sample it out at at different places, then how does it, effect?
+
+Either you have to very specifically know these are the time zones when there is silent period. So so better is you analyze those frequencies, you analyze the amplitude amplitude, and cut it up. Filter out those signals that there is no audio in there, filter out and then just process the remaining of that. But when we are capturing during capturing, we don't know what kind of sounds are there. 
+
+So then we capture that at a, fixed sampling rate. Okay. So depending on what is the requirement, what is the use case while you are sampling it, you can sample it at different rates. For example, when we were talking about walkie talkie, wireless intercoms, microphone transfer phone and all of that, we sample it at eight kilohertz. Model equipments, 16 kilohertz.
+
+ Audio CDs or lower quality MPEG audio, 22.05. Whereas audio CD, when you have better quality MPEG one audio or other mp3, other kinds of audio, which are which are better quality, you increase that.  And then you can further increase it.
+
+You can, in high definition that 48 kilohertz, high definition audio, 96 kilohertz.  So depends on क्या करना है what is our use case? What are we processing it for? And depending on that, it changes.
+
+ So related to the compression also. Go back and sometimes we have do a compression also.  You do oftentimes, you would have done compression.
+
+Even when you transfer a file on any social media, WhatsApp or, email or any of these sort of things, you have a large audio file. If you if you transfer it, right, it gives you an option of what does it give you an option of? Of compressing. You want to send it at the, same size, small size, medium size, and Google gives you these kinds of options.
+
+So it compresses. If you say I want to send it at a small size, it compresses audio signal. How does it do that compression? This is one of the ways. This is one of the ways.
+
+ You can do So that's like the the sampling help me compression also.  To reduce the information and then we reconstruct. Yes.
+
+That is what I'm saying. Sampling will help you in. So if my audio was actually captured at 44 kilohertz and the size is very high because this is probably a song.  If if this is how it was captured, I want to transfer it Bandwidth नहीं है.
+
+So this is what your this is one of the ways. This is your computational buttons will work. Something. Another way is other depends on what kind of audio test.
+
+ So all of these different kinds of algorithms can be applied. Humans can hear frequencies above at about 20 hertz. So 20 hertz to, I think, two kilohertz.
+
+28. 20 kilohertz. That is what humans hear. So, generally, when we do sampling something for ease of perception, ease of reception for human ears, we sample it at 40,000.
+
+ We sample it 40 kilohertz. Why do we sample it 40 kilohertz? Because you have that Nyquist theorem sitting there. 
+
+So what does Nyquist theorem say? Nyquist's theorem said to accurately represent the signal, the sampling rate must be at least twice the highest frequency present in the signal. 20 kilohertz is what we can hear. So even if the signal contains more than that, we'll not be able to hear that. 
+
+So if we are not able to hear that, we consider that as the highest, point, and we sample it at double the rate.  So from 20 hertz to 20 kilohertz, the sampling the minimum sampling that that we generally, for our purposes, it is operated with is 40 kilohertz. For phone and all, we we process it at lower because of a lot of issues with respect to bandwidth and processing and all of that. Because you are doing continuous transmission, because of those processes, we do that.
+
+ And then the you can very well relate to the quality of audio that you hear on normal phones versus when you when you hear these music on any of these sort of things.  So that is with respect to sampling. 
+
+What was the second point? The second point was with respect to quantization.  You have this sampling तो data capture करही हैना. Now how do you represent this data?
+
+How do you encode this data? Encode करने के लिए बहुत तरीके है. You can have it in eight bit. Again, I am relating it to images because probably that is you  would have probably dealt with images more than basic audio signal processing. Images, social media पे सब डालते रहते हो , camera पे से सब photo खींचते रहते हो, phone फ़ोन में  transfer करते रहते हो.
+
+ Notify and all of those things keep happening. So it depends on what are you using for encoding. How many pixels? What is the depth level that we're using for encoding?
+
+If you use greater depth of these pixel values, the variations that will be there will be very high. That will get encoded. Because if you're using just one byte to represent the variations that are happening at a much micro level, you'll not be able to encode that. So quantization will happen accordingly.
+
+A lot of pixels, a lot will get the the the groupings that will happen will happen at a very micro level, at a very macro level. Versus if you have higher depths, then you can encode very smaller variation, very unique, very minor variations in the audio and get to get to hear what has happened.  So these are then two different sort of things, sampling and quantization, which you need to keep in mind. 
+
+So, when we talk about sampling and quantization, then we then amplitude is another thing that comes. What is amplitude? Amplitude is the height of a sound wave. 
+
+So it is measured in decibel, and it's a logarithmic scale in which we measure essentially the sound pressure relative to the reference value. Reference value is generally the reference value of quietness that we hear. For quietness, that amplitude is considered to be zero. So if it is quiet, then that reference value becomes zero for us.
+
+ The amplitude of that becomes zero for us. The pressure is, let's say, consider pressure. The baseline pressure is considered as one. We're dealing with log scale, so base pressure is considered as one.
+
+You have amplitude. We operate in log scale. So amplitude the value of amplitude increasing by one. It's not simply just one. It's log of one.
+
+ Not log of one. So the the log of a value is increasing by one. So the significance is lot more. 
+
+Significance of that is lot more. It's not just one value increase. And, when you see the waveforms, this is how you see the waveform. So the the one at the bottom is representing something with the low one versus the the figure on the top is representing a high amplitude.
+
+ Now this is where we play fundamental of amplitude. Now there's another thing. There's, amplitude. There is loudness.
+
+ Loudness क्या है बहुत आवाज़ होराई है तेज़ आवाज़? What do you mean by तेज़ आवाज़?This is something we say. 
+
+The other thing is TV kका आवाज़ बहुत तेज़ volume है कम कर. We don't say amplitude or we don't say loudness कम कर . We say volume कम कर. So you have loudness, you have amplitude, you have volume.  So volume is something that we can control from there. Amplitude versus audio.
+
+What is the difference between amplitude and audio? No. Amplitude and loudness. Loudness is directly proportional to amplitude squared.
+
+What does it measure? Energy of? So, and what it is also representative of, it is it, in some way, measures it's it's frequency also plays a role in loudness. 
+
+Frequency also plays a role in when you're capturing loudness. So it's a combination of amplitude and the effect of frequency. So loudness is it it refers to how we perceive the intensity of volume of a sound. 
+
+And I said in the beginning, the volume the loudness is different for different people. It might be different for you. It might be different for me.  So not it depends not only on the physical characteristics but also how we interpret.
+
+ So you can measure it, but it's difficult to interpret. So yeah, the the example I gave earlier.
+
+For you, it could be it's not loud. For me, it could be very, very loud.  So similarly, the volume. When you measure the volume, it can have different impact.
+
+ And when we come into a bit more into, what we mean by decibel, so doubling the intensity of sound means an increase of a little more than three decibels. It's not only directly into the directly encoding the volume, it's also because these are sound waves. Waves are being converted into digitized form in what we measure as amplitude.
+
+ So the pressure that it generates, the loudness because of the loudness, the pressure that is getting generated in the atmosphere measured relative to the reference value that we have. So, doubling the intensity of sound means an increase of a little more than three dB, but a hundred times louder sound will have a decibel of 20. So 20 decibel doesn't really mean that it's under sound is 20 times louder, whereas it has a lot more significance of it's hundred times actually louder.
+
+So relate the decibel value accordingly. A 60 dB or, so relate the units in in that way. For example, if you have these values here up to so you have, I can't see this. Sorry.
+
+If you have a whisper, this will be, like, 20 to 30 decibels. If you have a quiet room, around 40. If you have a light rainfall, around 50. Dishwasher, 60. Vacuum dry cleaner, 70.
+
+And whereas if you have a car stereo or a jackhammer or a metal concert, this the value that these will generate are very high. So it's going up to 150 decibels. So hundred times louder sound was will lead to 20 decibel. Imagine what is a 150 decibel. 
+
+How often do you want to get exposed to it? Is there is there a observation that people who perform these metal concepts, do they get hearing problems sooner? I don't know. I'm just wondering right now. They do.
+
+Okay. They do. So they do have okay. So you need you need to have those equipments as well.
+
+And then if you have those equipments, I don't know. How do you feel the energy of that? Or yeah. So I'm sure this is a big area of research that how do you actually protect the people who are performing these? Like, just sports, sports and, sports medicine is a huge area.
+
+I'm sure this area of improving the health of musicians and artists who are performing these would also be of significant interest. Very selected audience. But, yes, they are there. So that is your decibel and the impact of different decibel values that you can have.
+
+Sorry. Okay. So, that was your decibel. The second thing is length.
+
+ What do we mean by the length of an audio? Duration. Duration. In some ways, duration.
+
+ So length of an audio refers to the duration of the audio signal. But it is it is typically measured in normal units of time. You will have seconds, length, minutes, hours. 
+
+Easy to measure. But then, again, depending on the length, what is the unit? What was your sampling rate in which you actually measured? It will depend on that. 
+
+So length is relative, and then it is phonemic in many languages. So when we say phonemic in many languages, it is possible that so if it is a longer word, more consonants and vowels.  It should take more time to pronounce. 
+
+If it is a longer word, it although if it is a smaller word, it should take smaller time to, reduce time to pronounce ideally. In a in a given language, if you're speaking at a constant rate, it does. Many of the languages, it does. Not every, but many of the languages, it does. 
+
+For example, if you take English, not every appearance of the same consonant or vowel is pronounced in the same way.  For example, you have examples from that Amitabh Bachchan movie. Anybody remembers that statement by Amitabh Bachchan or that's too old for you guys?
+
+There's a movie Namak Halal. Anybody has seen? What is the what is the statement there? So there there's a dialogue. He says English is a very funny language.
+
+Why is it funny? PUT put और BUT but होजाता है . GO go, TO to DO do.So it's o, D तो ठीक है , D तो ठीक है , but the usage of o, u, these vowels are not consistent.
+
+जैसे हिंदी में ओ होगा तो उसको ओ ही बोला जाएगा.ओ आ नई बन जाएगा या ऊ नई बन जाएगी.But then English is  not a phonetic language. Because it's not consistent.
+
+The the composition of the words also determine how it is spoken.  So that is one thing. The other thing is the rate of speech of a sound of, a word or a sentence. When we speak it, it's not constant.
+
+When I'm angry or when I'm super happy, I might be speaking in a very fast pace. Whereas when I'm trying to converse with somebody or upset just upset, not angry.  I might be speaking at a low rate. So the speech rate is also not constant.
+
+Plus it sometimes slows down at the end of a sentence and depends on a lot of the details.  Your behavior and other things as well. So length of an audio, you cannot say that length of an audio, if it is some if it is sampled at this given rate, it will represent , this only. 
+
+So there are a lot of subjectivities because we're capturing, human audio as well. Now let me go back. So this is what what did we just discuss? Loudness volume, decibel, and the length. Now what is remaining is your frequency.
+
+ What do we mean by frequency? Frequency measures how many times we capture that.  Relates to your, sampling rate.
+
+ So higher frequency means higher pitched sound, and the lower frequency means a lower pitched sound. Give me an example of higher frequency sound and a lower frequency sound. 
+
+Screeching noise. So screeching noise, like, a few weeks back, my, office door was making. What was happening? Two metal pieces were colliding when I was opening and closing the door.
+
+It was very troubling noise that I had. Whistle. So these are your higher frequency sounds. What about lower frequency sounds?
+
+ So flat noise from so the number of variations or sound wave oscillations that are happening, if it's a flat noise, lower variations would be happening. So take an example of this, bass guitar, low male voice, any of these would be your low frequency.
+
+And, if we take an example of this, this is obviously your low frequency. This is your high frequency, obviously, those kinds of sounds. So a combination of all of these has an impact on how all of these are generated. Now when we were actually forget all of these.
+
+You get, amplitude sorry. You get frequency. You have the sampling rate at which it is captured.  And and combining all of this, your, final audio signal is you you get that final audio signal.
+
+ So when we are, capturing that audio signal, we capture that audio signal in the time domain, the the signals that we were seeing earlier.  But when we are actually processing that now take a look at that audio signal. You have the amplitude, but how much does the amplitude tell you?
+
+ Amplitude is telling me some of the properties related to from amplitude portal can you interpret?You can talk about duration. You can any kind of task that you can perform by just looking at amplitude? Mood of a person.
+
+ To an extent using amplitude. But to perform anything more than that, you also need the frequency.  Not only the audio, that won't just help.
+
+We talked about tasks like ASR.  ASR, speaker recognition, any of these sort of tasks that you want to perform and you want to build a model for speaker recognition using just amplitude. It's not gonna work. 
+
+Or or speech recognition or speaker recognition, it's not gonna work. So what we do is we convert it into frequency domain and we work with frequency as well.  Because that provides you a lot of information, and you can also yeah. That provides you lot of information, and you can also relate it back to phonemics in some way.
+
+The other detailed other properties that you have when, related to when how we generate.  How we generate audio. There are a lot of properties that you can relate to that also when we are talking about this. 
+
+When we go back to, when we process it in frequency domain.  Hello, ma'am? Okay. So you have when a signal is there in the time domain, x axis represents your time, and your y axis represents the amplitude.
+
+ What we do is we convert it into a frequency domain. When we are operating with any kind of for for acoustic processing, further acoustic processing, any kind of operations that we want to perform, we convert it into frequency domain. So now you can have signals with different frequencies.
+
+So this is an example of sine wave with different frequencies. When you convert it into the into frequency domain, you get that information.  So when we talk about frequency domain, what happens is your x axis will be frequency, y axis will be we have the amplitude information available with us. 
+
+Now what we can do is we can use this amplitude. We we have this frequency and amplitude information, frequency domain, now operations on that. Anybody has performed any kinds of operations in the frequency domain? In image, we have performed. In image.
+
+Okay. What kind of operations are, ma'am, DFT, discrete Fourier transform. and then we can apply low pass filter, high pass filter. You can perform low pass filtering, high pass filtering sort of things. 
+
+So if there are the example that you were earlier alluding to, that if you have periods of silence. If you have periods of silence, you know this is, low pass. Can I perform any kind of low pass filtering or any kind of filtering to remove those frequencies? I'm not here. If there is some very shrill noise, I which is kind of if there is some very shrill noise, some very high frequency noise, I don't want that, you can perform different kinds of filtering operations on the, on the signal.
+
+ So that can be performed. Anything else? Noise removal can be performed. What else?
+
+So these are some of the operations that you can perform on a very basic level with frequency information.  But what are other things also is when when we are analyzing the audio signals, we have fixed that you can extract from frequency. We have amplitude, and we have, how do we extract other properties out of it and then go on to processing it for for any other tasks, that can be performed? 
+
+So maybe I'll, stop here today. It's around fifty-five. I'll stop here today. And then in the next class, we'll go on to take a look at what is pitch, how we take this. And then from speech, we had this time domain.
+
+ We just had this time domain, which was 1D.. How do we take that to create the frequency domain and then go on to create a spectrogram of 2D information? Spectrogram of 2d information and how do we process all of that.
+
+So we'll go on to look into some of these, but in the meantime, please go back, read about this, read about frequency, amplitude, and decibel and some of these properties. How do we process that? And then we'll come back and continue with the class on further analysis of, speed spectrogram. Okay? Any question?
+
+Ma'am, class code. Sorry. Class code is Can you just, one minute? I'm not done. Okay?
+
+So everyone please join the the this classroom. The Google link, you're already there. But if there's somebody who's not there, the Google classroom the Google Meet link is there on the classroom itself. Oh, sir, will you share the recordings in our classroom? Share the?
+
+Video recordings in the classroom. Yeah. I'll share the recording. I'll share the recording. Okay.
+
+Alright, guys. So we'll see you on Monday. Thank you, ma'am. Thank you. Thank you all.
+
+Thank you, ma'am. Thank you.
+
